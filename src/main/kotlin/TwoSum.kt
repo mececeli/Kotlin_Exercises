@@ -39,7 +39,7 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
     return result
 }
 
-//Best solution
+//Alternative solution
 fun twoSumBest(nums: IntArray, target: Int): IntArray {
     val diffMap = mutableMapOf<Int, Int>()
     nums.forEachIndexed { index, int ->
